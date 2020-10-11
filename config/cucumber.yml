@@ -1,0 +1,13 @@
+# config/cucumber.yml
+##YAML Template
+---
+
+jenkinsreport_apitests: --format json --out testResults/report/jenkins_report_api.json
+jenkinsreport_journeytests: --format json --out testResults/report/jenkins_report_journey.json
+
+headless: browser=headless
+chrome: browser=chrome
+firefox: browser=firefox
+
+
+
