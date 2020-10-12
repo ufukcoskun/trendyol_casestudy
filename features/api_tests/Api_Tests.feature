@@ -55,7 +55,7 @@ Feature: Api_Tests
     And I check if error message is "Field 'title' cannot be empty."
 
   Scenario: ShouldReturn400_When_BookIdIsReadOnly
-    Given I trying adding a book but book id is read-only
+    Given I try adding a book but book id is read-only
       | book_id | book_author | book_title      |
       | 012345  | Jane Archer | DevOps is a lie |
     Then I check if response code is "400"

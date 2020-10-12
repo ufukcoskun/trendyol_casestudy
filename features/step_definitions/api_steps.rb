@@ -40,7 +40,7 @@ And /^I try adding a book without title$/ do |table|
   puts $tyl_request
 end
 
-And /^I trying adding a book but book id is read-only$/ do |table|
+And /^I try adding a book but book id is read-only$/ do |table|
   # |book_id|book_author|book_title|
   # |1|John Smith|SRE 101|
   values = table.hashes[0]
