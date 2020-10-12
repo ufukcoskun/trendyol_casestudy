@@ -1,3 +1,5 @@
 # trendyol case study
 
-Ruby & Capybara & Cucumber & Gherkin
+with Ruby & Capybara, Cucumber, Gherkin
+
+
